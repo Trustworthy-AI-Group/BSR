@@ -1,11 +1,11 @@
-# BSR
+<h1 align="center">BSR</h1>
 
 This repository contains code to reproduce results from the paper:
 
 
 [Boosting Adversarial Transferability by Block Shuffle and Rotation](https://arxiv.org/abs/2308.10299) (CVPR 2024)
 
-Kunyu Wang, Xuanran He, Wenxuan Wang, [Xiaosen Wang](https://xiaosen-wang.github.io/)
+Kunyu Wang, Xuanran He, Wenxuan Wang, [Xiaosen Wang](https://xiaosen-wang.github.io/)†
 
 ![Attention Map](./figs/attention_map.png)
 
@@ -57,7 +57,7 @@ CUDA_VISIBLE_DEVICES=gpuid python simple_eval.py
 Codes refers to [Admix](https://github.com/JHL-HUST/Admix)
 
 ## Citation
-If our paper or this code is useful for your research, please cite our paper.
+If our paper or this code is useful for your research, please cite our paper:
 ```
 @inproceedings{wang2024boosting,
      title={{Boosting Adversarial Transferability by Block Shuffle and Rotation}},
